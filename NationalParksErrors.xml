@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NationalPark>
+	<NationalPark>
+		<Name>Grand Canyon</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<Address Number="8" Street="S Entrance Road" City="Grand Canyon" State="AZ" Zip="86023" NearestAirport="Flagstaff"/>
+		<Rating>4.9</Rating>
+	</NationalPark>
+	<NationalPark>
+		<Name>Yellowstone</Name>
+		<Phone>307-344-7381</Phone>
+		<Address Number="2" Street="Yellowstone Park Road" City="Yellowstone National Park" State="WY" Zip="82190" NearestAirport="Bozeman Yellowstone"/>
+		<Rating>4.8</Rating>
+	</NationalPark>
+	<NationalPark>
+		<Name>Yosemite</Name>
+		<Phone>209-372-0200</Phone>
+		<Address Number="9035" Street="State Highway 41" City="El Portal" State="CA" Zip="95318" NearestAirport="Fresno Yosemite"/>
+		<Rating>4.8</Rating>
+	</NationalPark>
+	<NationalPark>
+		<Name>Zion</Name>
+		<Phone>435-772-3256</Phone>
+		<Address Number="1" Street="Zion Park Main Street" City="Springdale" State="UT" Zip="84767" NearestAirport="St. George Regional"/>
+	</NationalPark>
+	<NationalPark>
+		<Name>Rocky Mountain</Name>
+		<Phone>970-586-1206</Phone>
+		<Phone>970-586-1333</Phone>
+		<Address Number="1000" Street="US Highway 36" City="Estes Park" State="CO" Zip="80511" NearestAirport="Denver International"/>
+		<Rating>4.7</Rating>
+	</NationalPark>
+	<NationalPark>
+		<Name>Great Smoky Mountains</Name>
+		<Address Number="107" City="Gatlinburg" State="TN" Zip="37738"/>
+		<Rating>4.9</Rating>
+	</NationalPark>
+	<NationalPark>
+		<Name>Acadia</Name>
+		<Phone>207-288-3338</Phone>
+		<Address Number="25" Street="Hanover Court" City="Bar Harbor" State="ME" Zip="04609"/>
+	</NationalPark>
+	<NationalPark>
+		<Name>Glacier</Name>
+		<Phone>406-888-7800</Phone>
+		<Address Number="PO Box 128" Street="West Glacier Highway" City="West Glacier" State="MT" Zip="59936" NearestAirport="Glacier Park International"/>
+		<Rating>4.8</Rating>
+	</NationalPark>
+	<NationalPark>
+		<Name>Joshua Tree</Name>
+		<Name>Joshua Tree Dos</Name>
+		<Phone>760-367-5500</Phone>
+		<Address Number="74485" Street="National Park Drive" City="Twentynine Palms" State="CA" Zip="92277" NearestAirport="Palm Springs International"/>
+		<Rating>4.6</Rating>
+	</NationalPark>
+
+	<NationalPark>
+		<Name>Olympic</Name>
+		<Phone>360-565-3130</Phone>
+		<Phone>360-565-3131</Phone>
+		<Address Number="600" Street="E Park Avenue" City="Port Angeles" State="WA" Zip="98362" NearestAirport="Seattle-Tacoma International">
+		<Rating>4.7</Rating>
+	</NationalPark>
+</NationalPark>

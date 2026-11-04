@@ -1,0 +1,42 @@
+﻿<xsd:schema xmlns:xsd="http://venus.sod.asu.edu/WSRepository/xml" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:documentation xml:lang="en">
+			Distributed Software Development Course Example implementation
+		</xsd:documentation>
+	</xsd:annotation>
+	<xsd:element name="NationalParks">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element name=" NationalPark" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+						<xsd:simpleType name="Phone" minOcurrs="1" maxOccurs="unbounded">
+							<xsd:restriction base="xsd:string">
+								<xsd:pattern value="\d{3}\-\d{3} \d{4}"/>
+							</xsd:restriction>
+						</xsd:simpleType>
+						<xsd:element name="Address" minOccurrs="1" maxOccurs="1">
+							<xsd:complexType>
+								<xsd:element name="Number" type="xsd:int" minOccurs="1" maxOccurs="1"/>
+								<xsd:element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+								<xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+								<xsd:element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+								<xsd:element name="Zip" type="xsd:int" minOccurs="1" maxOccurs="1"/>
+								<xsd:element name="NearestAirport" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+							</xsd:complexType>
+						</xsd:element>
+						<xsd:element name="Rating" type="xsd:int" minOccurs="0" maxOccurs="1"/>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+	<!--
+ Define the allowed format for the Phone number with a regular exp. 
+	<xsd:simpleType name="PhoneType">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="\d{3}\-\d{3} \d{4}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+-->
+</xsd:schema>
