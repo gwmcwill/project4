@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NationalPark xmlns="https://gwmcwill.github.io/project4/NationalParks.xsl">
+<NationalPark xmlns="https://raw.githubusercontent.com/gwmcwill/project4/main/NationalParks.xsd">
 	<NationalPark>
 		<Name>Grand Canyon</Name>
 		<Phone>928-638-7496</Phone>
@@ -27,30 +27,29 @@
 	</NationalPark>
 	<NationalPark>
 		<Name>Rocky Mountain</Name>
-		<Phone>970-586-1206</Phone>
-		<Phone>970-586-1333</Phone>
 		<Address Number="1000" Street="US Highway 36" City="Estes Park" State="CO" Zip="80511" NearestAirport="Denver International"/>
 		<Rating>4.7</Rating>
 	</NationalPark>
 	<NationalPark>
 		<Name>Great Smoky Mountains</Name>
-		<Address Number="107" City="Gatlinburg" State="TN" Zip="37738"/>
+		<Phone>865-436-1200</Phone>
+		<Address Number="107" Street="Park Headquarters Road" City="Gatlinburg" State="TN" Zip="37738"/>
 		<Rating>4.9</Rating>
 	</NationalPark>
 	<NationalPark>
 		<Name>Acadia</Name>
 		<Phone>207-288-3338</Phone>
-		<Address Number="25" Street="Hanover Court" City="Bar Harbor" State="ME" Zip="04609"/>
+		<Address Number="25" Street="Hanover Court" City="Bar Harbor" State="ME" Zip="04609" NearestAirport="Acadia International"/>
 	</NationalPark>
 	<NationalPark>
 		<Name>Glacier</Name>
+		<Name>Glacier dos</Name>
 		<Phone>406-888-7800</Phone>
 		<Address Number="PO Box 128" Street="West Glacier Highway" City="West Glacier" State="MT" Zip="59936" NearestAirport="Glacier Park International"/>
 		<Rating>4.8</Rating>
 	</NationalPark>
 	<NationalPark>
 		<Name>Joshua Tree</Name>
-		<Name>Joshua Tree Dos</Name>
 		<Phone>760-367-5500</Phone>
 		<Address Number="74485" Street="National Park Drive" City="Twentynine Palms" State="CA" Zip="92277" NearestAirport="Palm Springs International"/>
 		<Rating>4.6</Rating>

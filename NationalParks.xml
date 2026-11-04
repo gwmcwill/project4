@@ -35,13 +35,13 @@
 	<NationalPark>
 		<Name>Great Smoky Mountains</Name>
 		<Phone>865-436-1200</Phone>
-		<Address Number="107" Street="Park Headquarters Road" City="Gatlinburg" State="TN" Zip="37738"/>
+		<Address Number="107" Street="Park Headquarters Road" City="Gatlinburg" State="TN" Zip="37738" NearestAirport="a International airport"/>
 		<Rating>4.9</Rating>
 	</NationalPark>
 	<NationalPark>
 		<Name>Acadia</Name>
 		<Phone>207-288-3338</Phone>
-		<Address Number="25" Street="Hanover Court" City="Bar Harbor" State="ME" Zip="04609"/>
+		<Address Number="25" Street="Hanover Court" City="Bar Harbor" State="ME" Zip="04609" NearestAirport="Acadia International"/>
 	</NationalPark>
 	<NationalPark>
 		<Name>Glacier</Name>
