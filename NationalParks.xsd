@@ -1,4 +1,4 @@
-﻿<xsd:schema xmlns:xsd="http://venus.sod.asu.edu/WSRepository/xml" targetNamespace="https://gwmcwill.github.io/project4/NationalParks" elementFormDefault="qualified" attributeFormDefault="unqualified">
+﻿<xsd:schema xmlns:xsd="http://venus.sod.asu.edu/WSRepository/xml" targetNamespace="https://raw.githubusercontent.com/gwmcwill/project4/refs/heads/main/NationalParks.xml" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xsd:annotation>
 		<xsd:documentation xml:lang="en">
 			Distributed Software Development Course Example implementation
